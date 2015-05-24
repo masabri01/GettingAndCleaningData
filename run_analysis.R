@@ -11,21 +11,7 @@
 ## ******* BEGIN run_analysis.R script ************
 ##
 
-## read the data set into memory, if not already present
-
-# File URL to download
-  fileURL <- 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
-  
-# Local data file
-  dataFileZIP <- "./getdata-projectfiles-UCI-HAR-Dataset.zip"
-  
-# Directory
-  dirFile <- "./UCI HAR Dataset"
-  
-# Directory and filename (txt or csv) of the clean/tidy data:
   tidyDataFile <- "./tidy-UCI-HAR-dataset.txt"
-# tidyDataFileAVG <- "./tidy-UCI-HAR-dataset-AVG.csv"
-# Directory and filename (.txt) of the clean/tidy data
   tidyDataFileAVGtxt <- "./tidy-UCI-HAR-dataset-AVG.txt"
 
 # Read the individual data sets
