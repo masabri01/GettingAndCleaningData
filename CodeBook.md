@@ -3,10 +3,10 @@ CodeBook for Tidy UCI HAR Dataset
 
 ## This Code Book
 
-This CodeBook describes the data contained in the output of the `run_analysis.R` script contained in this repository. The tidy flat text file can be read using `data.table` to create a data table for further analysis.
+This CodeBook describes the data contained in the output of the `run_analysis.R` script contained in this repository. The tidy flat text file can be read using `data.table` command to create a data table for further analysis, such as:
 
 ```R
-tidy_data <- data.table("tidy_data.txt")
+tidy_data <- data.table("tidy-UCI-HAR-dataset.txt")
 ```
 
 The script creates a tidy, condensed version of the University of California Irvine's (UCI's) dataset for Human Activity Recognition (HAR) using smartphones that can be used for further research and analysis. The original UCI HAR Dataset is a public domain dataset built from the recordings of subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensor (see http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
